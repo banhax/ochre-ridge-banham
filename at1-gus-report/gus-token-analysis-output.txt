@@ -1,0 +1,46 @@
+tiktoken count: 434 tokens
+
+--- Entities ---
+  Ochre Ridge                         FAC
+  five years                          DATE
+  First                               ORDINAL
+  AI                                  GPE
+  Second                              ORDINAL
+  eighteen months                     DATE
+  4.2 metres                          QUANTITY
+  60                                  CARDINAL
+  km/h                                ORG
+  under two hours                     TIME
+  Fourth                              ORDINAL
+  Unitree                             ORG
+  twenty                              CARDINAL
+  AI                                  GPE
+  AI                                  GPE
+  Fifth                               ORDINAL
+  AI                                  GPE
+  forty years                         DATE
+  AI                                  GPE
+  95%                                 PERCENT
+  Sixth                               ORDINAL
+  AI                                  ORG
+  Budget                              ORG
+  seven days                          DATE
+  Executive                           ORG
+  Ochre Ridge Resources Pty Ltd       ORG
+
+--- Most frequent content words ---
+  robot                9
+  want                 8
+  ai                   7
+  report               4
+  ochre                3
+  ridge                3
+  job                  3
+  ore                  3
+  human                3
+  system               3
+  team                 2
+  lithium              2
+  year                 2
+  budget               2
+  smell                2
