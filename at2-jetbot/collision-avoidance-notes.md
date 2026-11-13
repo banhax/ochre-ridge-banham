@@ -1,0 +1,1 @@
+After a bit of tweaking, a threshold of 0.7 and greater counts as blocked. This seemed to work well, and the robot stops frequently enough but not too often (at unnecessary points).
