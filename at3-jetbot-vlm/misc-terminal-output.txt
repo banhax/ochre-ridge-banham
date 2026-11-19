@@ -1,0 +1,742 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --host=0.0.0.0
+blah
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+blah
+req.data = b''
+172.20.20.16 - - [19/Nov/2026 14:34:38] "GET / HTTP/1.1" 415 -
+172.20.20.16 - - [19/Nov/2026 14:34:38] "GET /favicon.ico HTTP/1.1" 404 -
+blah
+req.data = b''
+127.0.0.1 - - [19/Nov/2026 14:35:02] "GET / HTTP/1.1" 415 -
+127.0.0.1 - - [19/Nov/2026 14:35:02] "GET /favicon.ico HTTP/1.1" 404 -
+blah
+req.data = b''
+172.20.20.16 - - [19/Nov/2026 14:35:08] "GET / HTTP/1.1" 415 -
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run               
+blah
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --host=0.0.0.0
+blah
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbot-vlm run              
+blah
+ * Serving Flask app 'jetbot-vlm'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbot-vlm run --host=0.0.0.0
+blah
+ * Serving Flask app 'jetbot-vlm'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> pip uninstall flask
+Found existing installation: Flask 3.1.3
+Uninstalling Flask-3.1.3:
+  Would remove:
+    e:\xb_20094400\semester 2\murray - advanced robotics\to do\ochre-ridge-banham\.venv\lib\site-packages\flask-3.1.3.dist-info\*
+    e:\xb_20094400\semester 2\murray - advanced robotics\to do\ochre-ridge-banham\.venv\lib\site-packages\flask\*
+    e:\xb_20094400\semester 2\murray - advanced robotics\to do\ochre-ridge-banham\.venv\scripts\flask.exe
+Proceed (Y/n)? y
+  Successfully uninstalled Flask-3.1.3
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> pip install flask                        
+Collecting flask
+  Using cached flask-3.1.3-py3-none-any.whl.metadata (3.2 kB)
+Requirement already satisfied: blinker>=1.9.0 in E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages (from flask) (1.9.0)
+Requirement already satisfied: click>=8.1.3 in E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages (from flask) (8.5.0)
+Requirement already satisfied: itsdangerous>=2.2.0 in E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages (from flask) (2.2.0)
+Requirement already satisfied: jinja2>=3.1.2 in E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages (from flask) (3.1.6)
+Requirement already satisfied: markupsafe>=2.1.1 in E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages (from flask) (3.0.4)
+Requirement already satisfied: werkzeug>=3.1.0 in E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages (from flask) (3.1.9)
+Using cached flask-3.1.3-py3-none-any.whl (103 kB)
+Installing collected packages: flask
+Successfully installed flask
+
+[notice] A new release of pip is available: 26.0.1 -> 26.3
+[notice] To update, run: python.exe -m pip install --upgrade pip
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --host=0.0.0.0 
+blah
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask run --port 5000
+Usage: flask run [OPTIONS]
+Try 'flask run --help' for help.
+
+Error: Could not locate a Flask application. Use the 'flask --app' option, 'FLASK_APP' environment variable, or a 'wsgi.py' or 'app.py' file in the current directory.
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask run --app jetbotVLM --port 5000 
+Usage: flask run [OPTIONS]
+Try 'flask run --help' for help.
+
+Error: No such option '--app'.
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM --port 5000 run
+Usage: flask [OPTIONS] COMMAND [ARGS]...
+Try 'flask --help' for help.
+
+Error: No such option '--port'.
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --port 5000
+blah
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --port 8080
+blah
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8080
+Press CTRL+C to quit
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --host=0.0.0.0
+blah
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --host=0.0.0.0
+blah
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+blah
+req.data = b''
+172.20.20.16 - - [19/Nov/2026 14:44:20] "GET / HTTP/1.1" 415 -
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --port 80 --host=0.0.0.0
+blah
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.20.20.16:80
+Press CTRL+C to quit
+blah
+req.data = b''
+172.20.20.16 - - [19/Nov/2026 14:45:29] "GET / HTTP/1.1" 415 -
+172.20.20.16 - - [19/Nov/2026 14:45:29] "GET /favicon.ico HTTP/1.1" 404 -
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --port 5000 --host=0.0.0.0
+blah
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+blah
+req.data = b''
+172.20.20.16 - - [19/Nov/2026 14:50:40] "GET / HTTP/1.1" 415 -
+blah
+req.data = b''
+172.20.20.64 - - [19/Nov/2026 14:52:50] "GET / HTTP/1.1" 415 -
+172.20.20.64 - - [19/Nov/2026 14:52:50] "GET /favicon.ico HTTP/1.1" 404 -
+blah
+req.data = b''
+172.20.20.64 - - [19/Nov/2026 14:52:57] "GET / HTTP/1.1" 415 -
+blah
+req.data = b''
+172.20.20.64 - - [19/Nov/2026 14:53:15] "GET / HTTP/1.1" 415 -
+blah
+req.data = b''
+172.20.20.64 - - [19/Nov/2026 14:53:16] "GET / HTTP/1.1" 415 -
+blah
+req.data = b''
+172.20.20.64 - - [19/Nov/2026 14:54:29] "GET / HTTP/1.1" 415 -
+172.20.20.64 - - [19/Nov/2026 14:54:29] "GET /favicon.ico HTTP/1.1" 404 -
+blah
+req.data = b''
+172.20.20.64 - - [19/Nov/2026 14:54:52] "GET / HTTP/1.1" 415 -
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --port 5000 --host=0.0.0.0
+blah
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+blah
+req.data = b'{"image": "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"}'
+req.json = {'image': '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'}
+[2026-11-19 14:56:35,758] ERROR in app: Exception on / [POST]
+Traceback (most recent call last):
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 920, in full_dispatch_request
+    return self.finalize_request(rv)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 939, in finalize_request
+    response = self.make_response(rv)
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 1212, in make_response
+    raise TypeError(
+    ...<3 lines>...
+    )
+TypeError: The view function for 'res' did not return a valid response. The function either returned None or ended without a return statement.
+172.20.20.166 - - [19/Nov/2026 14:56:35] "POST / HTTP/1.1" 500 -
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --port 5000 --host=0.0.0.0
+blah
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+blah
+req.data = b'{"image": "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"}'
+req.json = {'image': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAIBAQEBAQIBAQECAgICAgQDAgICAgUEBAMEBgUGBgYFBgYGBwkIBgcJBwYGCAsICQoKCgoKBggLDAsKDAkKCgr/2wBDAQICAgICAgUDAwUKBwYHCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgr/wAARCADgAOADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD8uNTv5Q+xQ42KApzyc+mPr+lb1z4wS48Had4ahgZJ7e5llnmDgFwyoADznjB/OuM1HUIzfFVAVvN24dSM84GM9ahudT1KG3OqW1n+7W5WBi6MOeeR6jitUpqzUX/wWrdX5s2pzk4ayVn/AJ3/AK6nu3wlSe606009JpAjs5KjJwOvT6mvRYfCFii5lkkY8ZAGB/n/AOtXm3wi13TdHe1vdZkEcEVuxeQKSMnGBiu3uvjp4NgPl2umXVxxlWEW1T9ckEd/evOqU8RVqe7E9ejOkqac2a//AAjWmPCFNs7YHzF+h/zmiLw3YoVEdhHtB6FBn6/zrmJf2gYmlC2fhb5V4Bkn5P4Bf610Hwu+Ieo+O/EbaZNpsMMKwlw0eSc8DGenrWboVaavJWt5nXTq05yXK/wLP/CMWk3L6YmB1zEOPwNNPg+xkUs2mxg9T+7HXH0r0FNEQk7gq4PB2nJFO/sGFlwYxyMZKVja26Ol02lax5NrHhs2t+kVpp4ClN2FUAVHDo8w/eNp8ny/dwvf64+nFd54k0WQasfKYECNcZXpzUdvojgkkY9iP89KvaO3YxlBtnJRJKhAktyCAQSTjjpx+lXrR4owo5JA65rqYNBmcbSCVzjO01OPB8s5LmBGJ6ho/wCtF9LMXJPWxi2Mm75I35AyxPAP416B8AtG+EPiD4t+HtL+PXibUNK8IS6lGuu6hpNr9omgh7sqdwTtDEBmVSWCOQEbmJ/AV4ADDbMue6E/jVZ9E1axwylxtONrqePxppJg5VVufpp+2j+yR/wSj+JP7F/jP4r/AAB+LOhaXqHhnwLcatYQad4kiaSd4kAhjuba4PnxvLK0UAX92fMmQbSxCn8PpdWCy7VGCG4O7r/n1r2P4w6trNr8PNQhucGPZGGKPjHzr1r54m1AFmwQM54wTXrYaNP2b9mmjz6866mozlzep1kXiAK6u0jMQQAOv9au/wDCTMr5kZmIHJZuAe307cVwUOpSRvnBbLA96sjV3YhWQLkjcwBro5XF2sZe2b0udlN4iYFlaU43ZLbsk9Mn+dUm1yWZWGx/vHjfwOxrl7jWTMcRJhQ3bNNi1Y7y2wgMcZBI59T+tHJa2mo/bSXws35dUDbo8MfmPzbufw/xqndX+5pC6Ffm4Geves3+1Z/MYGP3wATUM97vXGzIYdiRj8O1ZOPM/hFzuT0Y+5mMhLSFgDnHJ5qrO4CjAYA9fmHA/PpSPcDfhE/FaheWRG+dcfLxxmn7Pmfw2Mvekr8w93dQQEZsjA+bNMiwZMHzckcgvxTFdZAGSNc9TwenpSLKBEc9Bxt2EAVDi7aRMnF8qd/6/r+rliJwPk8tgwXnawHOM1LBdSRsJY7eQEMTjeBk+3NU2faolRGOckZU8e9SJdIi4SFm3A5IQgj2ram5P7PqclWM5e65Lz2OX1O8ls288Lu2sWUAc1JfXryWOmRxOoL3JZwDnngY/OpvF1hbPP8AajGqgtl1VuGPvWJDBYPqdrAl4F/eglFkAHXmvPVajKN3fr02un6a+muxuouDTir7faX6o9X1C9e18MxGNFOdgAB4Oc1Ja6hJcQg5wMDgE/y/Gs/xG0Q0GJnmXb5qA8gE8Gq+jzwk+WZBj+L5jj6U6cqSjbr6f8E7Zc6nf9ToUuJT8u/vwuPWvRPgBqGpWXiBks7uKHz/AC4ZZJYS4RS3JABBP3fWvM4niZSEmByPUda9C+Bmn3WpanNBZAs4aPkfjz+VKtKHs3Z/gb4fndRafifT+saNpnh+/wBLt9K8Xrq322GR5lFr5fkldmCPmOc5PHtUyadKo3EjtniuZ8FaPf23iGOLUWYMLTIwe2f8cV6AlrEUIO0ADb15NcDS0R7yaleyt5anB69YltYkAGOFB45HFSWWlEgLtGGPQ1wfxS+NWreH/iNrGiab4SW4j0yKNprl7jaMGNT0x/tAdeaw7L9qnUBGsqeG7JlJ4VtQwfyK0/Z2e55tbG4anUcZP8H/AJHtthooVgPlJyCQRXS6P4YSZ1ORg9SR/OvFdL/a38IQeXDc+GNRnuHJ3LaIjKOOxZhmu28Cftj/AAluliuNZ03WdNgkbalzdWO6MkcfeiLeo596HSm43SKpY7CPeVvU9ds/AiTDa0SkdRkD+dJqXwytJ4C5hXc3UFBx7123gTVPCPjHSo9T8O65a3cLgbWhmVh09j16Vt+IdCubfQ7m60yKN5lizEj9C38IOO1YJWeqPSg6dSN1qj43/bC8DW3h74M6tqq4jMckAUiMDkzIP618W3UjhC+88+2fwr9Av2+NC+KOifs/awfFPgWCK0NxbK2pWt4JI1/fIQSpAIz0z6kCvzyvHTBBcAA8gdxXr4JxVPXv/l2PnsxlH26stLdf69B0166ZJkXngYpEvHx5ZlOW6EjoOaqOIiQBJxnoWpEniK5Yg57buDXXzQ3W/oedztz1X4mgb0on3wc9cnH/AOukju5QCskgHQ/ez2//AFVTyjAIW9iQeuKaxRiMEDJP8XWpi6a1f9fiUpppOS/EvpfPJt4zz09Ke12wO0kZ28joKoDyyQDcL05IboPSnHy9v30OB97PX29qlujZWubJ82tvxLbTTZPnMHyMKc9PQfyqJpmLl88jjnIGajZ7fgCTALDuKZHHaquWlU9M/NnGKlyp/wBf8OTKU3ol+JOZm2/LJz6laUzNFjc4Iz0x7dOlQ4gJGXHK8kMOaQGFSGL8g9Cf88VMZwUtblrnttt5ls/MQxBOBwAeBTWlJQsWVR0zjGPqag/csAwnUZHzD3pwNsSYmmQcHK5H3fQ8/WrjyqKbv/XzOeqr9PxOff4hnUZ3XUrJVKH5kjJORmqN5qFqPFFmtvbho3YMCpzt5xnH1H61YvtDfUHWO2ilDICyqGwCcdDUMFq9trljIbaQYRd6+YPkPHt1rWVHBNP3Gl/it+pxKOLWspp/9uLa77r08+yO38WX0aaJE7KwHnqPlB9DxVTR73JC7fl6klsVavl/tXTWhw/7vLKc9SAeKo6YrrOG8p+Mgjd3rOMaEF8Ov+L/AIJ3t1eZ7W06f1/Vzora7xGHWIgjGMdhXcfBrxnFol/Kk1hdyCR0DG3TdtUZBJGR6157bTTH7uSCv3t3aur+Gut2+l6pNJcyCMSoAuWHUH19P8KJU6Tht+P/AATejOcKibf4WPqn4S6hba34ikubKZpES3jX5xjBJYke3SvSLyQJHwTvXO5dx4HWvG/2dPFbRzalp02nRTR5gmFwjYePJIZicfMOh7Y5Oex9pvIVMYAAx1DAdRXBUhFVG7aevZHt0ajlTv8AofNPxNVb7xz4phl3bJJY0bYSCD5aDj8MV5l4n8A32iXmI9ahaKTiLybwO+TyBtU5r0r4lusXi3xafIc/6USvl46bYh3rzW813SYrmPUE0C/Z4JFeMy3AwCOTkbea6VT05l+a7LzPJq1Up2lpv08/JEHgW21SHxtZRT6pMyAsXhZj/dPUV1Xjf7RP4G0u5sEiPlyyKU8sHPCc+3Wua8HaxHrXxKgvnsZY5XWTezuCPuk+ld/p3g/xF4u8K2NroVuskS3TiXe20LkLjtz/APXrGSjB3mrfP18zOo6ai4wd16enkdv4Q+Gcl14H0+/0PXtR066ubGKVntbp0VXZVJOFI9+9fW/7GvhO/g+Do/4SLXL3ULw6yYGur29llyhkjwuHJwBn9evFch8DPAegWvgjSdR1K2aWa40izEkEzArG4jG7Gffr9K9n+CI0m1sk0u0liQv4mQLADyF+0Jzj0rnk4OCVvxO/D0qdGbmrbdv6/wAy3/wWV0DwxoH/AAT78U3en6layXI1PToGiikQvzdISDzkYxn8K/Dm6uRI5Jgxnpivt/8A4KrGEfFL4i3CR7S/jCVev3sSH0H+zn8BXw/cFw5zG/P8QbjtXv0sJSw0UtXdX3tv03Pm6mPljKspJW5W4972+XmQ+bknCYpPOwOnsAelLtdgSEbOem7P5U1/MQHETHH+1+maHCEVe34/8ElTnLbf0/4AGZtpaQdPTk4pfOAxvXBA7ChTIGGVPHJ2tSlJhJgRHHdgcY/SlKFPt+P/AATWM6j1b/AVZQD+8jBOD36UfbGCH92DgjADc8U1UJJOxh64agk9ww9DkYqfZ0Zacu3n/wAE0TqrZ/gtyT7Vgh3iA44HUD86Q3bYJEPGQDj8utNM0hGHiPTruo3uRhVLAdAGHSk6dJfZ/wDJv+CbJz6P/wAlHSX0oAR4hwvG0jBpDdBWAaLODyM0m+XflIGIHo2Kd5smN4tWDKf73J/wqfZ0UrOL/wDAv+CR+9jHVr/wEf8AbNqeWYjjcSOelPN0WXmMHPK7XwBUaiQRYaF88EfMKkj3hT+4fbxkh8n64xVSjRWvK7/4v+CZt1HK7e/93/gDvDzWlrq4a+nQIwAUyP0b1z/n6VRv7Wzn1xBBdjckpjUKBgqDwc969I+OXwe8GaD47l0Tw3dyPbtBDNFOcfMskasO3owrhl8HN4f1CFxdtIHfjPAHHv8A5Fcb+qKnq97PZ9djubxkJ8qje27uPvLbULdMrcOVYkFinGPT+dR2oMcynz8nHOOa29UNzYyLJbz5VgcxsPlYcVWh/siabbPYOnq0J4/Uf1qIyoWV3+Bo3XctYj7VtrLmQANwc1ueBYBc675U+GUwluQD3Hr25xWW2maZgHTr1mO0ZSZdpz7dc169+y38LtK8Yzand3+uDTrq2ERtpHcBXVtwfqOT8q9PX3p+0w6ja/4FU6eJ57Jfkdx+zTpl/c69qCW12Lcqi+Urp+6cENww9DnGRz0+le5eDtW/tbRmtriPZPYzvazxk52svTnuNpHPevCo/FdhoXxBuPCfg77ZrMNrZsupyWT7cujv8u/+EDaCWHY46niv4Ni+NHgjxikekmMQanK8ttYahe/Kykg7FZvvcEYI5FQlBqSbS6nTGrKMkoq/RlvxbGD8Q9f3ugT+0hvLjKj5UIzXlev6ZrMniDU7a81LS7W2YZjDzhWBxwAM9/WvSvFUmpXOq65qmrWEtpJLcrJJEoJaMgIGx/ewQe1cP4w8M6MzrqF5qIDzqGxc/K5GMdDyOn6VvSp0o0JVW9mlt/wbnlV61b6z7K2jTfX0/rUyfh94csNH8XWV1F4gtLreJF+zRTh2X5D1x6iu/n+E0nj74Xv4oTXIbNNMkk3W7KxLghT2rjfBvhvSLDxTY3VheW86yM4EkJ6MYySCf0rodY8XWHhTwJa6df8Ah576K7eTeY73ydownBGxs/09KynOnUraaL0FSUoU2mr/AOff+tD66+Ct8978N9Ctrq4YC1sLRo3jcjJWNeD/ACP9K9h+D97EIrGZ2xnxPGfl6/8AH2n5V4t8JZY4vh3ohig8tX0uBtnUqDGDz68V6b8LdSaOwsChJB8RxMMjp/paVxS5ZRj8j0lVnyu/Y+Qv+CoGqm7+JHjdg/M3jecZLccNIR/L/wCtXxs4bn94CTnr/Q19U/8ABQ921H4geKpCxP8AxWty2c9983+NfLj6chBL4474619NipUXyX7LofF5ZPEONVpbzf6FLbIrZZuARy1KEJAAPB7Hv/nmrD6aJG+Unk8+1OTT40Yg7jjuR1rlcsOle/4M9eEsQl8P4/8ABKpDOwJdRnHPpSEDaSzAZ+6V/wA/5zVl9OhDYTOV7dKZJp6DB3cYwwPTFJ/Vm99vIuMsQ9HH8fQqsx6My5J6gf5NIWAHLD86lNkiDvgk/dGahazj8wMznGOnY5qL4W9/0Zop4tRXua+qHbzywIHHamiWRsuWAGTnK9aRrNTkBzjBwTikSCLOQ5YZz7UKeD5r39NGaxnjP5PxRIZXkbdvXj1pyuxBDSAlsVELNAfM3t83bOAKkjtAAERvvdgP/rVDlg+a8Za+jLvjEvej+KHoznKl8HtuPapVJyP36bhyxXoP84/CofsUIUFRgnk8U8WEbREBm27dp7H3of1STu2vuZXPjP5U/mdbdSz3s9vc3eo/aZUt40GT8yoBgKc8/L0+lZuuNH9ogYN8omxtP0qzcaVfx3qrFDIr4GwqD3/lWxY+E/F2qJFGngua++bhkt3UjPfOD6Y6VKUZw5Ur/IqNNX1v85b/ANbmDrKjahDIcZ4HeqMcaE8HHXoODXq+l/AHWNdiEWpyLpCq2D584ZgfpwT17Cuo8LfsxeC7PMms6teag653CBfLjHH94g/XpXTSwNaqr2276Ezq0Yy1f3P+meF29vv+dn4BxyOtd38IYviBBcz3fga18x4seeptfM3Kc4GOR3NenRaB8M9FKwaH4Vtrp1OFCRNdyE/8BwPzruPh94e8Warpst1oPhS+0+Pesc8fkJbGQY44BORjFVUwdOnFqpUitv60FCVXn9yEn53/AMzR/Z30PwJpegah4l8Y6VbrdXMqtJJf2q8qw3ZG4epYH/69Zfxmsvh9qtxbazocD2EVleM4urW2Cq24fMmcheoBBH9BXRSfDH4paBHceIdG8EW2p3KSxS2MFxcNKYyD8wbKkSAjPA2npycVdg+C3xj/AGhLhbX4iaTDp9tbsDDpWnxsscbjgF8nC9OByeTgVnB5dRqOWs7/AC/Ba/PQ2qRx1SnytKP3t/ft+Z5nc+LLDULK81oxh1t4Uaae5lzvxt54x1yO/f3rjNf8V+DdXM0t9dWpeVCjvBbybj1GM5YDrXq+v/sd/HjwxqN74XtvA2q6jY3iPDYz6XZNIjE7Su75SORx7YxXBeO/gl4u+FbyaF8R/Ct/pGoQqD9k1S2aOVwQGBAKjII9BUzxMJJpQjy9renfU8+WGlvKUubvdr8FZHFeDfCWn6X4q0y90m/mlhZ3XaDkD5G6/wAs47fl2Z1e00jwZBBLoWhXE0zSCK41rUFhEWAucBuGz/SsLS7GTRtdtotOvFLznCAHCq2CeeO4yPyq14i03Q7rwRZX2uQSyeVdSKqIABgqpySeRzxjH41Ff2NeSqw22a7P/J/8Oc9JVKDdKXTZ91p+P+Z9TfDy6Y+CNJBkjH/EtgB8sgrnyx93HUeld58PL7ybLT2VuviGHuOn2pa8y+G9wE+H2ioMoqaVABnqo8sd60IPiFFpmjnT7VQLhNSR7eRpQVZhKpHHBzxXn8nOkjtqVFC77nzT+2nrsuq+OPFOlRKpWTxjcu7YDMu2Sbv6c59yBXgT6XISM85OcZ9Pwr6d/aS+Hmnrp8ni1nc32paw0lyCflDOJHYjjIGff0rxG90FYsMR36ivoKsoSlp0SPnsBSnToty3bfVnGDTmD7AR0zwvIpJLMjI2kbR0WunuNKVD8qn65/SqU2mpG5A6jv1rG63R32lff8TCaDOcgADjGeelV5YgWzg4IwMda2bmxjHIbJz3xzVSazUHLEjPXnmovTWtzaKnf3r39THlhDBpNyk+nFQuqRAAqpyMgnNaN1ArLtOSCOB/kf5xVW4hVGDtIcsedp4z9McVD9mlubRi33+9lLC/eUDOecUoAVMEA59DU0sKluGOBjkA1GkAZygkb1GT1pXpvrY1hTezv97/AK+4jVQG3owB4zjvTlTcxjAXcRnHqM9alSCBiNz9cDIFDQRZUA9Dnoe9JypPX9DdRafX7xFUhsbgFIxyuR9f609xmPcGD88FTnJzTo44Q+zkZ54YnPv0pTCmGRpjjPOW/pip5qa3f4EunLZXXz/zPqK31+7tbYzWfhbSLMEDdcPECQAPf3rC1vx9dSu32q81DVCp+aCzG2Nc9Mnpjtxmv05/Z3/4ImfBDWvAeh/ET4n/ABTv9R/tWziu5tPtbdVC7gCY97EnIzjpivpD4YfsRfsb/BQs3hP4R6bcSwkM13rEUczYHcrtC447g9K9B5s3C9Kmkntt/wAOejS4Zrzm1Vqbf13Pxo8B+BPi94ggS88EfBe51KSRMxRsssm1iRjgIM/n3/P6Q/Z0/wCCcP7ZfxC1/wDtT4qfDiDS7DyDsttStngTdxghZflHH93371+t+iR6FoWlpaeGtDstPtlOVhsbZYk57gKAOaxtb8bNB4psfDEcDyy3sckrSJ0jjRRlj7bio+rCuSpLEYqPvz+49ihk+FwlnfU+TvCP/BK++062jl1rxjpNuoA3x2cDMy+nYD/9VaOp/sD/AAu8HXQnXx1rVzcyFQIbRo4o2OABkEPyPbFfQ+j+LdYuW1eDWtGe0l0/UHt4WbO25iIV0kQ45BVsH0YEVy/i/wAN61450m+s9J1EWlzNAY4Lpt37onjfxyCAePepo4KhG8palYpxUbQWpzWlfs2/B/QfDqwXei3N/Myruku7ohh0/wCeYXj616L4Q8PeBtC0iK00jwNpUCwfNH5VjGCp6k5Azk5PPvWPq+g6bfa1p2q2OsTJPpMTwTwCTcJ45AvEgz94FVIb6+vGvZXYhUxsO/QenpVwpQjNPlPKrztFo25telWMxqvlqBgDGB7Yr5d/4KTfsu+Fv2mPCuh3ev3UlteaTeMtvdwRgsVZSQjHrtyvrxk+tfRj3EmSxPA6YUnjNct8VLq6TwTe3dkkYktlEsXmx7xlTn7vfjNbVaalTlFLoeJVq3km2fkp8Uv2RPHPwe1KPWIvCOqapbxyqIbvTbR5kGQeuF+U4zwaxNA0u+8H6dLFrnwt8RXUXns9vI2kn5VIAO7cBjnP51+h0/iv4ma5LtPiq8jQjG1JNigewWpnsfFM1q6J431FJG6M1wzAfUZFcFOlTpUpQitH/X+a+ZyV61SpVjOT1X9f8H5H5t3Px2e1LWUekapGqLtEFxIseB0xgAmua1T4javqF4lzaQi28uUSJiQswYHPt/Kvrb9qv4ZR674eu4fHHhWxh1NUabTtd0yMN5j5+67bVJyeoYZ5yCcEH4pnhltbl4JYirLuDbhznpWLSSvbYzT5766G3r/jjVvF1kLDVJmlWN943nvjH8jXK6hbpkgL25xxx0/pVppjBE27B4GCRWVd34Ukou455z0rupVJThd7mPKqcuVbFK8tkQ8LxjH/ANes2eEHJVCQevufer9zctL8zcdxg1QnmkQfuhnHB+ntWid90VHfRmdNGQSrI3B6e/0qnNDg9TnIOM1pXTnDMY8Z+8dvSqNyH+8EGc4xUc1+hcfeVrmZNFhicuTjOA3X3qpPC4kBVSeMcdq0bkE43qMnp8uc1WuI3DZKZI65o5pX2/I6OVWvzGdNa7yx2EcZOG6+36UeS+AxXO7ADZP6e9W23FiwQbQeuKaRIMIUUc44H/16lzly/CdFOMVopFeSABuFJJO0gyADH+f5U42rKDnd+De1TMrgdRg9Mdc0MZHUYXb6KeB9aOaV17v9aG/Ipfa/P+tyKOGRVJ2jgfxP/nj60MjYIQMSDjG/GP8AP9anj3Pk+VsGeTTZMhd3B44wetY80ru6X4FOMWtJf195/R9+yv42RvhbpXh66kOxLCH7MS/3D5YBFdgmjabB4j1S68RarFLb65HFaQ2kjDaIwrZGD1JLt07AV87/AAH8SR2Xwq0i/ST5mtoigY4Awg/rmvVLH4o/DK/+wXfivWFt7vTrgTRQySKC5Csu3BIyDkYI9q4cLVfIos/Rp2dm+p6z4Z0o+HPDtl4dF/PdiytUh+03LAySlQBub3NV/EU1yNLuLzw9YRS6gkDCN3HOOCVyOecdM9hXD3X7Q/hHT7V7q61OKN2H7uFpRvVfcZ615/4w/av0izMlxoWoPHKPvmQ5Q++Mg5969eCjy2ucNerBLU9PvNbuNR0ayuJ3Hm3lrDJtXtvUN0z6GphrFloduJpn3LgFwDkj3/z6V8u6/wDtdW9hPLf3erpJMxJMjTZAHoBu96828aft1Wu9o01Sd3OcLDN+nBrb2kGrHiVsRFNs+wdW8efDbQdRvdR0TVo7i6v/AC2ktldcRMu4M2QcgHjOR/D3rCv/AI6eHdMTa2oIzY52NnmvhvUf2m/iH4tuGg8M+Eb65LZ2yGNuT7mm2vhn9qDxywni0d7JJBlXnLjH5gVPNZ3R4deu5Xt+B9f67+1VotmvlRyke7zgf1rlNe/aUh8QadLbLcRRxSHa4jm3Fs9q+fdA/Yw+Id6n2jxf8TYrOIvukht3YYBJ3HOeT36/WvQ/BHw8+DHwTjnMvxH+13JXE2+4ViO/AyT2rKrUqyg+Q8yaSqe/sdlpPjNr4CLTPDl2/BIYx7V/M1oPB4lv1CTTx2inqsbln/PpXC6h+0l8ONDLW+mWN9dkDIkCqik/Vjn9K5jVv2wNRiBXRvDVrC39+aVpP5bayp06nJdo4q04Sk+U9v07whplpH9pntzPMw5aVQSfrmvNfjl+xZ8Dvi3Zvf3UMXh7Utp/0+wWNFY9cumAG78gjrnmvN9R+Ofxy8dyGz0NNQKvkFNLtHHfs3J/I9qgt/gp+0L8QDnVIp4UPOdVu3yhP+ycn8qPY6as5lVknZaHyz+1H8Abz4Aa1Hpq+MdO1m0uXcW9zp8wJG0fddeqnn/CvIbiXecvn5fevpz9uD9njxL8KPDvh/UfEXiCK6fULudFihjYBdioerYz1FfNc+nCIbCQ3BJ4renBQjYvmlPdGfK4RMHv0qKYZIAU/h6/5/nVya1RAQOfT3qnMieXvx052jvV6vZm0XtYpzjnex6/eJPIxVaVSg3gY9SDjFWJfLkJ8tyRyfeq84iViQ2QBzzg5pam0ZQ26FKaMBiFOWB455Hb+n6VWlSNWwWx7Grs/lbsOOvUk9+lVHjiLMVPIPXf3pOLZuqjsrL8SuIiTuBzz+VGAmS4IOePpUrRwepII4zSFIchmfJ6nnNS4N6XN4yjHVL8SMRkLvYE89CenvT1Vc8EH05pGjjALLIR9P6U4rADtOcA5J7j/wCtSlC6VmdKnHt+I0xpn5pmPH3lIPfrTZFXIZ0OB0CjvTl8lwHD8EZwaa7WxG2WTIIweRUuK11Kbsrxt95+mXhL9quLQPh1pOj/ANoqqwafGCVYbvujrk/WsPWP2uLm/nMdlbXV44b5fLYvj6YrD+E/wn+BVv4M0/xN4r8SPdzXFoskloCpKnAOzHPTp0rtbD4k/B/wYFsvCngKORkOFmuVX8+QT+leHTat7qbPrOfETgnOSS+/8jL0Lxr+0B8QnUeGvBl0iMRh5FcDHrwOK7jR/wBmT45+KoluPFPi6DTUYDcu5gw/M/0qO2/aT8RyW4tdOit7WNgNiopJHvk1Cniz4j+M7kRWn9p3fmcMI9+0+xA4r06Ck4q5x1fZveTl+B02n/si/CfQ2+2/EP4nm4cDLI8gwfXGT/StOCT9lX4fyAaH4MOoyJ0kkiUrkeudoNZGifs8/GDxHzPZw2Sv1kunO4D6Y/zxXU6N+xXLOwk8TeNZXIYEpaW+Bjvy3+FdXI73OScWl7sDH1j9qGw0dJLXwj4IsLAF8K/AOPdVA/nXHat8f/iP4gLQWF3Km7I2WEZB5/M/jmvd9G/ZZ+GOglVGjveSDB8y8bfjp2AFdlonw78P6KgGnaPbW5I/5Y26r/IDPSrSSZ5laFZrV2PlDTvBnxr8dlWXRdSkjc5WS+kfaOx5bpXV6N+x/wDEDVFV9a8Q2dorD5kiDOy/jgCvqCy0S2XAMf6dMVcmtIoo9oCjn04qtW9Dyq1Plep4Bov7GHgi2YSa3rd/fsB90BY1/EYNdv4e+BHwy8NrnTfBtiWx/rJ4RI31ywP6V2zvAgOSo9cdM1BNdxkH94OTjrQ02jzakUtilBp1pYwra2dukSLwqRIABj2HFWLOBC4Q8e4qle6/p9ocy3C5A45rKufiBY2z74xuOOMtTVOUlsckpJO7PnH/AIK1Wbt4Y8HyKg8sX12rcHGWSLGT+Br4N1KOFSV44Br9V/id4l8O+N/DF34d8TaRb39jPCyzWc0YcOMHoD354PUV+WPxvi0rwP8AFfWvCWjCUafb3rC0S5x5sanna3rjPX0xRGnLZmtOcbOxgXrJnawyR7c1nTshfawBB461LLdrLhw+Rt4I5qhc3KE7mJzjof8AP+RVcrf9M3i+hDJOuGITIOCCD+lVZCisXVVznnHNStKWUEydQMtjP/6qheRcluNuCcj+lS013/E6YcrsV5WXbu4C4AU56/41FIY8bihyOM55+lTNIoO4scYwSe1REqBsjY9ecr1+tTJX1/zOmmkkm/0ImRHOzYc9z0poUD7q5y33c9TUx2sQ21sg5JC9M/560xWRn2ZOABgAZz+NZtPpe3zOqEUrf5IYowBsRto7HNI6quVZTwOMHkfpT8xmQFmByOoH55oaeNcgZ69Nvap18/xOnlj2/IYTHna6Y5xnOBSOoA3mPj+EAH/Ip58srtlbOBnAXP8ATrRIY+VwvTG4DFQ3J9X+JCWyS/BH3j8GP2efGmt+B9PvrzU4bRJYclZA5cLuPUY/z9Ovpnh/9k/QPtCyavrN5dMDkqihR69ea9Y8FaD5ukW01yuxnjUlSuDjHT+ldv4V8JxXci7EO1eMgYBH+RXjU+aWlz7inhaMYLmVzj/h78BPCWkKkdl4ft8jjdLEGJ6c8jivYfC/gCz0+BZPJVQORGqYGa1vD3hu3so1nkA+U8Db9OK2HmSI7gF2jgAnv616tGnyrcTpwS2KEel28JCLH74YU6RIY13kYxweKSfUreDIkkBA4yDWJrXi60hBUOCR2Bxmu1J23POr8qauXXSJn3P6+lHnwxjDfTGetcjeePY0J2YHGeWrHv8Ax/dyOVDkDjBzwf1+tWqUnueLiKiVz0OTWLW34aUAdhmszVvGtjbxN8+TjAwwrzmfxLezuNzED1JyevWsy/vru4ctJMSDzgE4rphQb3Z4GKru2iOp1f4ipHuWIr15+bvmuc1Dx3eXBwpbk+tYzpuPzHkHGck5qNlJ2884+atY0YI8arOo3qS3etX90x3SHH4knNU1u5Xcl2PAyRu/KpZY8ElBz0GKhZGyX3AAN0xWqijgalzO/Ugv528gtGQMdmGOK+Tf2oP2Vrj4neLbrxr4V1WGC/mb9/bzqfLkKjAKkZwcCvqLWkMjHD4weDnp7Vy+r6cjv5nyk55XHI4rRUozWo4TnGSaPzj8UaD4q8A66+heLdJa1ZQAs2Plb3zj9fzqsbqOaPMaYI/hZSOa+4/ix8GfDXxL0aTTNYs0ExU+TMIxuU4PfHvXxx8WPg34r+D+rtaX0LS2oP7m6VTgA9veuKrQlS1voerRqqa21OdkZWb5gQMY/wA/57VGSCCpH5/40R3K3AwAAwHQdD7imyL1JTPoOua5JWeqkdcb22ImaMNl1GCflOP/AK1RNJApOEHqTg/T8KlMYDcdPQiomSTfkx9M856cVEoxfX8Trhe17DTJCcg8YGPrTWSJtp2kFD1GeKR0DElwAAPXgD2+lCIVO3jOCM561PKrWjL8TpjLWyiLtiQcR49Bzz7+9DmMAjkAE8gcU3YN4VEAJbAyv496V0eZc7fmPGT/APqrOS1XvG0ZSsk4oCsBb5EHGMDBwabJJHINrqF4yCAc04oVTepHAOR79+1RspkBZgAD1BJqGlzP3i+d20X4f8A/djSfhw1q0Z1HUlULj5Y1zwO3pXXaRHpunxrBAvCjhjisZ7mSVxk556gn9asgywRhSM5qoYWEFotT7GOIlNG1c+ITEuI1z9Ov61lXnia6ZTkc44BPNUp2JUgv35wcVQn2qcM5yD07AV1QppK5nUqyH6hrcrIzbieOM+vpXMXupTzSNKWyx6AjqM1d1aVWcRxNjnkbqybgCQfeYZ6YxiuhRV7HmV5MqzSFpS79h6dahZC2FUHnGPf2qwyfKVL8gHIPOP8AP9aYIw7kqCAT0z+VbRirnjV/vGbNylsdB1qGdSMk4GTzzVoxjIGD0wR70hhAVmGc8/lWsV3PHrRcmUGgXIyO/VutNeEMTlB9QOf8/wCNXGhUNnGcimvDHt24PWqsebUh0M+WEKpJbOTwCOpqrcDAyCPfNatzbZyRn8+/+RWfdr5YI9vlwetUkcs4a2MXUQDkk57HjnNYtzEhJJY9DjnJwc1tX+TvC5JB9fasS45JZsj5eRj3reFkrGfJfUz72zVgykADk4HHvxXKeOPAGg+MtJk0jW7JXRxjJTJFdo8W5NpG3pnnoc4qCe18yM7Bhvc5xmqcVJWOilFpqx8HfHn9mvxB8MryTVNE33Gnu2VMcZyueh46V5lBqMbKEmcZJADHgD6+hr9J9d8OWOrWsunahbJLE4IZGUYx6818mftIfslXegzzeK/BgMkDZeSFU6e3T3/SvJr4LlvKG3oetTqT5UeISsqocPgnvio5W3HIxyOMiqSyS6fKbO8ilyrYKM2WHJ6A9R+oq0yQuoKOdvBG1+vrXI6UOj1No1ZN9PvEYhQd5AJ/WmGUvyGXOfTmgogbJLY4GfWo2EQXCu4PbPfmo9hG2/4HXCs7a2XzJVdSCrBdh6ZHegTHIBkBGBUexQoY7+eME0jMp+VXbBHUsOD+dQ8NfVfoauvKKvdfeSK4QkPKBt9Bz19KWR4wTtORjjAA6VE3kBAGY9ex7UjRxBcxybs+h6/rWbore/4IPrE0+mnmfvlbW+Iw5IyMAVLNKBw7/jjp/npV25s2hGFB+YDJLenTmqMsTAblJXA6Hmuux9TRuo2KsrMMquSCOSRis+8lZImDE5ycn8frWlNvRdmSdv8AF1J/OsbUZdwKqTgHkN/n61cXbU2aV7mbMpkyyLk+2ck1Wkxkspxjt2/z0q7Ksg+VkPB5AwPXNVpFJzuIPHAUf/XrWL7nDUjbqURAzDftJCscDof8j8KZsycvtAJ/Lt/SrcqlmwVx0AIwO/vQsRUERqcsTkkdq2i9Tyq9Nt3IxHgDe34Z6AUfZfnLYz6DH+e1TqjgfhwO1TRx8bSOo546/wCeK0Wh5tShczxBkFWUYCgAj1qu8W35m+6R1Nacq4Iwc5PSqV1tDsSMlTgMv1p31OCpR6IpTkRjJXPOc7sd6ytUUEFT7cAcjpx/Kr95MFO05OOMDIrH1C4CksT1z/nmnF3ZySpJa3MW9ZjjOcnJ9KzJV5zzjPJJ461pX5zltucL0x/jVJlCsSWxz/Eev5fWuhSM1RsyvsYEoW5z6mlWIiQZXqecLx3qRYiVG4kfQ4Hb3qREKHIOQAeCPf8A/XVXNYUmVJbAS84XBJIFZeoaTFco9vNCCrDayOMgjoc10QjJJZB3wCPWq89nKy4RATnkHvxQ32O+nR0sfLP7Sv7I1n4ggm8WeDV8u5RCXiReuD/sjNfKGp2OueE9Wk0zUonSWNyGR9wVvf2r9SLvTiqlT8w2k7SOuOa8X/aD/Zh0b4j2Et/pkaQXi5YFIh8/H5159egvigjrlh5Ss07en/DnxHHdreR+ZESCfvR85U0b8KeuD1BBz9a0PHPgHxP8NdabS9XtpVCybUlaPAA9OevfiqNvcG6YMXCuRwA2Q1cLlBK3Lb+vQFB7X/r7yu0hUhVZgSM5we9KJDjJdiehUE81aeOUkBXOSe5BwetIqyDK7yQePlHSpnKF1p+P/AHyyUrX/L/MqsxiAwxA4PGaY7EcngZ+6eeKsiObO1x2wdoH061HMlwi7Qx5zggdf1qbray+/wD4ANSvZv8AL/M/oQv4SVMmFyOmelZF4HGACMd9vr+FbuqqsLkcgeh6+9YV3NFhm5XAIznk9+MH3HWrg76H1tOzSM2/kSOP5gx6fhWNN+8ckt0HXHNXtSuPNmIUjk4wOciqpYSKMDGQMHpVWdzfRoqyqd4BB2jGMDke/NV3HBXsOFz6VeZGdyqjjqc8Z44qGVFBJIbnnn/OauLe1jkqwdr3KZT5uRyDyAP50i5TBYAjOeBU527iMbT2I/z6VG4UHGMe+OK3h5nDVptEaKobDDI69ODUu5SMn0+XLelQsAh3Imfm6YpskqAAvuIIx8vHpnj861d7nFUppC3t0CMKwxn7mc496y7plHIfggZA7VPcXagbVUZXqTWbeXDHOBjI5UGrUbM4qlLqUtRnUszMDn8sVk3U5LMc544weBV67fzMnd14OR1rLuGA6rj2I/SnG1jklRu3Yp3GMBGQYAOVK1ULooO7IycjntVm5aNcI5VQepOBjr6/SqrpySFIAwM9zj3rREew0FGwuS3I/H9PenxKwXaxAIXuv+cUKrF90SkcDnFSoq+YM8bR0Y+lXdpG0aKuKCu4qoyOCCOcc+n40u0SJtUAEZ4x39/89qaHIfYc/MBnA69qRmcKAAeedz4xjv8A59qm/kdlOlaQyaBWG0pgdOnb1zWfcWQjH+rIyckgdP8A69asb+aGzDgoecrnPcUstukql8EnuAPz61nJ6anbCnqeUfGH4FeHfilo72t1bRpPglHMI+9jv+fWviL4xfA7xR8JtXlWaKSS1DDDCMjGe44xmv0quLAlPuNjG7kcn/Oa5T4g/DfQPHOlSaVrdkjFo9ocoCRXHXoRrK9tR1MOpq60PzTsdRSW3wZiPVsHK/X0+vSrbAdGIHGehxivTv2gv2W9d+HWpy6xoNvLLbghmKxHGCT+nWvKNO1COZ2sniZZEODCykknPRSev061wOLUrTX9fccUoKDs5EjebgOeR34II9/6VXuJW2BlYkAddnSrUjx5DpnnoSCRmq1xKjqSN27PBUcZpOLb1j+H/AMpU6bt7/4n9EHi3T1hu3kZfunnB/D8fWuP1aUQAq2QXycMvbNdZr13JMnUEDspritclLzMgU8HG7FaJ2Wp9HCcW7Iyp9zMzNnJ+9zTcB3wASB0IPv/AJ/KpWRjywAyRgHvTduwHcep4xTg1Y64tMQriNo9gbPQnrUTR4OdoyTjp2qc8A7QefameWFIAU7Tk9BWsbXFLuVmCjJxnjkuKgeLafL2EAngAVcmUDJ3Z9fyqq6LuwAcDjj+tbx0OacdNSsF6ksoHoOBVecHOwjccdOwq0+S+WHBzkGql2jIzSIvJK8YArZavU45wurMpXDZyBHtI6kj6c1nTKyklQMZx196v3O48sQcf41RuflYOcD8en+eKtWW5zTpXZm3Slhkr1IIGetZd0BjacD2Lf4fStO9JCFexOazLst5mQOg5ximnoc7pORRmG0Ax4wCSTwO39P6VEIgiN+54HJ6c1PKAoCnn6imgBRwEAIOMfpiqTsT7LqJ5RRckHIx94nPH40gKO2XUg7gMHg59B60rlSuIyMkfKNvX3qJ5FXarZ6+mOn/ANeqcki40nckilBBCuNo55Oc8n+p/SlSQvICijGOVzz+FRorqflypKg9PzqSGI7/AJQVG4AHHB/wqLpux0whpckt43THAPTbtx/+up3VXTAbqPm4x+vamRgcDPPXp2/z/nipAGAUkbtzcBR27E0M6YQvohht2cByNvIJ+Xsfr7VWuNOZvlxgDI6YwPw/zzWgkZCbXIAVu/ofb86WWBmyHi9Og4Oee1RKy6mqehyXiXwvp+u2Mlhe2ayROD8rgccH1r5J/aU/Y8mslfxL4ShVgDlkij4HPtxX2td2TH5flzjAyOnuO9ZWqaZb3KtbzRq6FSWVgOR6Vz1aUKi5ZHLXpqpE/LhJ7jT746P4ngMUsZCJdFPr98ZyRyPmHOAcg8YTUNPls3KzRg55DZBBHqpBwQex6H3r66/aS/ZL0zxVaT614bjRJkUsFSIZ3ZB+uK+Rdf0HxB8PdRuNC17T99vuwS8JDIc43IT9MEdx+BHDUp+yfvbf1ueNWvSfn8j+gLU793tmBY5z19fwrl78tI+UJIOcYH+c8VpX2oLImUl6Z4xwc9/b/wCtWTeSKzDaCGydwI9vX9aJ30se1h6nkVwvBAXk85FDZZhJ79OuP8/0pSMknpxyOlKrDbhiB2yeKaPTptNbCFUACnIxwQB0pVRmQKmeDkkUHqcKfw7c04bNmXbDA9D/AI1tDRG6imrWIn6FcDn8arXSMAFbAB6Z9KsyORjJzxgegNVbmQMrFTtwed3at1dGU10sVW3FSoI46kCqkwQoWkAbnkZ71YmmKRAYz1wcZ7VTup42OMjnggHr/nirUjOVNbFG5ZwNzEHvg8c1m3b8naPxBz+NXruXKbjJ05x7msy6badm7II4GeBT50c8qSve2pTuZNmcBc9Rnv8AyrOuQMfOxPJyR/n2rQumGCgB9DgcnP8An/PalIGYc44P93v0xQpdjH2F3sUi4chMEEgnOMHqP8aZKS2cHb8oBB9P85qcodzFjkjrioCjooEgA4AAXuPp2q+ZW0M3RT0sV2IdiCBgkFeOnt/9amo2wcj/AGR8v4Z9cU8DcQVGctjGO/P5UqE7ygGACDwOTntmndMFSS6CR7XbIHHUg8DBGPT/ADzVhEhZQcA4HyjbjPv/ACpqk4JXG1QONvX8v896mVMKWZvvcZx0zSTurmsYLaxLDs6u5CHHb/GpkI2hiRkkcj07fUf4VHEC4DgZB67ux9PepbcEAcnvkcc8dvy/lRddTXkXYVSwxmQLuJyc/lx/nrTy3ARgVBAG4Mcj8utEfyOAMYx/EP5j86kL+XjHJBweM5I/lUNpaouUeV7ERjWUYc8A5wE5POOn+eaztQhxHhXUehI6g+lajTGJNxOTyCc4xVLUJ4m3bAwUcgkZx+Rqbo5qrjY57UoUIxGg54+71wOmK8g+On7Pnh/4laZLLb2McVxs+QlO/wCVexXjBZMlVBzuAPY+4rOuUDdFxwcYXP8AOkkprlZ4uKcHG9j/2Q=='}
+[2026-11-19 15:03:55,520] ERROR in app: Exception on / [POST]
+Traceback (most recent call last):
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 920, in full_dispatch_request
+    return self.finalize_request(rv)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 939, in finalize_request
+    response = self.make_response(rv)
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 1212, in make_response
+    raise TypeError(
+    ...<3 lines>...
+    )
+TypeError: The view function for 'res' did not return a valid response. The function either returned None or ended without a return statement.
+172.20.20.166 - - [19/Nov/2026 15:03:55] "POST / HTTP/1.1" 500 -
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --port 5000 --host=0.0.0.0
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+[2026-11-19 15:05:15,796] ERROR in app: Exception on / [POST]
+Traceback (most recent call last):
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm\jetbotVLM.py", line 22, in res
+    response = ollama.generate(model=MODEL, prompt=PROMPT, images=[image_b64])
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\ollama\_client.py", line 281, in generate
+    return self._request(
+           ~~~~~~~~~~~~~^
+      GenerateResponse,
+      ^^^^^^^^^^^^^^^^^
+    ...<22 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: Failed to load image or audio file (status code: 400)
+172.20.20.166 - - [19/Nov/2026 15:05:15] "POST / HTTP/1.1" 500 -
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --port 5000 --host=0.0.0.0
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+[2026-11-19 15:09:13,180] ERROR in app: Exception on / [POST]
+Traceback (most recent call last):
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm\jetbotVLM.py", line 23, in res
+    image_jpg = base64.b64encode(image).decode("utf-8")
+                ~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Program Files\Python314\Lib\base64.py", line 55, in b64encode
+    encoded = binascii.b2a_base64(s, newline=False)
+TypeError: a bytes-like object is required, not 'str'
+172.20.20.166 - - [19/Nov/2026 15:09:13] "POST / HTTP/1.1" 500 -
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --port 5000 --host=0.0.0.0
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+[2026-11-19 15:11:13,509] ERROR in app: Exception on / [POST]
+Traceback (most recent call last):
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm\jetbotVLM.py", line 23, in res
+    image_jpg = base64.b64encode(image)
+  File "C:\Program Files\Python314\Lib\base64.py", line 55, in b64encode
+    encoded = binascii.b2a_base64(s, newline=False)
+TypeError: a bytes-like object is required, not 'str'
+172.20.20.166 - - [19/Nov/2026 15:11:13] "POST / HTTP/1.1" 500 -
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --port 5000 --host=0.0.0.0
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+[2026-11-19 15:12:45,300] ERROR in app: Exception on / [POST]
+Traceback (most recent call last):
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm\jetbotVLM.py", line 23, in res
+    image_jpg = base64.b64encode(image)
+  File "C:\Program Files\Python314\Lib\base64.py", line 55, in b64encode
+    encoded = binascii.b2a_base64(s, newline=False)
+TypeError: a bytes-like object is required, not 'str'
+172.20.20.166 - - [19/Nov/2026 15:12:45] "POST / HTTP/1.1" 500 -
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --port 5000 --host=0.0.0.0
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+model='llava:7b' created_at='2026-11-19T07:13:58.1665978Z' done=True done_reason='stop' total_duration=23660611600 load_duration=2268304800 prompt_eval_count=605 prompt_eval_duration=21313090000 eval_count=3 eval_duration=73029000 response=' No ' thinking=None context=[733, 16289, 28793, 733, 5422, 28733, 28734, 28793, 8390, 4372, 297, 464, 9780, 28742, 442, 464, 1510, 647, 511, 368, 1032, 264, 27103, 297, 272, 4658, 3469, 28804, 733, 28748, 16289, 28793, 1770, 28705] logprobs=None image=None completed=None total=None
+[2026-11-19 15:13:58,169] ERROR in app: Exception on / [POST]
+Traceback (most recent call last):
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 920, in full_dispatch_request
+    return self.finalize_request(rv)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 939, in finalize_request
+    response = self.make_response(rv)
+  File "E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\.venv\Lib\site-packages\flask\app.py", line 1249, in make_response
+    raise TypeError(
+    ...<5 lines>...
+    )
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a GenerateResponse.
+172.20.20.166 - - [19/Nov/2026 15:13:58] "POST / HTTP/1.1" 500 -
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --port 5000 --host=0.0.0.0
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+ No 
+172.20.20.166 - - [19/Nov/2026 15:19:12] "POST / HTTP/1.1" 200 -
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --port 5000 --host=0.0.0.0
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+ No 
+172.20.20.166 - - [19/Nov/2026 15:25:50] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:27:10] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:31:54] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:35:28] "POST / HTTP/1.1" 200 -
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --port 5000 --host=0.0.0.0
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+ No 
+172.20.20.166 - - [19/Nov/2026 15:37:09] "POST / HTTP/1.1" 200 -
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --port 5000 --host=0.0.0.0
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+ Yes, there is a yellow blob in the image. 
+172.20.20.166 - - [19/Nov/2026 15:38:20] "POST / HTTP/1.1" 200 -
+ No, there is no yellow blob in the image provided. It appears to be a photo of a computer server or storage unit, with an electrical outlet visible in the foreground. 
+172.20.20.166 - - [19/Nov/2026 15:38:36] "POST / HTTP/1.1" 200 -
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --port 5000 --host=0.0.0.0
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+ No 
+172.20.20.166 - - [19/Nov/2026 15:40:26] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:40:35] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:40:44] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:40:52] "POST / HTTP/1.1" 200 -
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --port 5000 --host=0.0.0.0
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+ No, there is no duck or duck-shaped object visible in the image. It appears to be a photo of a computer lab or office environment. 
+172.20.20.166 - - [19/Nov/2026 15:41:31] "POST / HTTP/1.1" 200 -
+ Yes, there is a duck visible in the image. It is a yellow rubber duck sitting on the table next to a power strip. 
+172.20.20.166 - - [19/Nov/2026 15:41:43] "POST / HTTP/1.1" 200 -
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --port 5000 --host=0.0.0.0
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+ Yes, there is a duck-shaped object visible in the image. It is sitting on a table next to a wall. 
+172.20.20.166 - - [19/Nov/2026 15:42:10] "POST / HTTP/1.1" 200 -
+ There is no duck visible in the image provided. 
+172.20.20.166 - - [19/Nov/2026 15:42:20] "POST / HTTP/1.1" 200 -
+ Yes, there is a duck visible within the image. It's located in the center of the image, sitting on top of a desk. 
+172.20.20.166 - - [19/Nov/2026 15:42:28] "POST / HTTP/1.1" 200 -
+ Yes, there is a duck-shaped object visible within the image. 
+172.20.20.166 - - [19/Nov/2026 15:42:38] "POST / HTTP/1.1" 200 -
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --port 5000 --host=0.0.0.0
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+ No 
+172.20.20.166 - - [19/Nov/2026 15:43:47] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:43:55] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:44:04] "POST / HTTP/1.1" 200 -
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --port 5000 --host=0.0.0.0
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:45:24] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:45:31] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:45:39] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:48:48] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:48:53] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:48:55] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:48:56] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:48:57] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:48:58] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:48:59] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:49:01] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:49:02] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:49:03] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:49:04] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:49:06] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:49:07] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:49:08] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:49:09] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:49:10] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:49:25] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:49:27] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:49:28] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:49:30] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:49:31] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:49:32] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:49:33] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:49:34] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:49:36] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:49:39] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:49:40] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:49:44] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:49:45] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:49:46] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:49:48] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:49:49] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:49:50] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:49:51] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:49:52] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:49:53] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:49:55] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:49:56] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:49:57] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:49:58] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:50:00] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:50:01] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:50:04] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:50:06] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:50:07] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:50:12] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:50:14] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:50:15] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:50:16] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:50:17] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:50:19] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:50:21] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:50:52] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:50:53] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:50:55] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:50:56] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:50:58] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:50:59] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:51:00] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:01] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:02] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:04] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:05] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:51:06] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:07] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:09] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:10] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:11] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:51:12] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:51:14] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:16] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:17] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:51:18] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:51:20] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:51:21] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:51:22] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:51:23] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:24] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:51:27] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:51:28] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:51:29] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:51:31] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:51:32] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:35] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:37] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:38] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:39] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:41] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:42] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:43] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:45] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:46] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:47] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:51:49] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:50] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:51] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:51:52] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 15:51:54] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:55] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:56] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 15:51:57] "POST / HTTP/1.1" 200 -
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> flask --app jetbotVLM run --port 5000 --host=0.0.0.0
+ * Serving Flask app 'jetbotVLM'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.20.16:5000
+Press CTRL+C to quit
+ Yes 
+172.20.20.166 - - [19/Nov/2026 16:32:29] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 16:32:31] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 16:32:32] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 16:32:33] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 16:32:34] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 16:32:35] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 16:32:36] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 16:32:37] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 16:32:40] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 16:32:41] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 16:32:43] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 16:32:44] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 16:32:45] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 16:32:46] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 16:32:47] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 16:32:49] "POST / HTTP/1.1" 200 -
+ No 
+172.20.20.166 - - [19/Nov/2026 16:32:50] "POST / HTTP/1.1" 200 -
+ Yes 
+172.20.20.166 - - [19/Nov/2026 16:32:51] "POST / HTTP/1.1" 200 -
+(.venv) PS E:\XB_20094400\SEMESTER 2\Murray - Advanced Robotics\TO DO\ochre-ridge-banham\at3-jetbot-vlm> 
